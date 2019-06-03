@@ -1,0 +1,16 @@
+[2019-06-03 05:43:54] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=22_l7Wbv-GKreilk2QqFbnknSjretO0sHM4hdy7pIuQos7r8Q6z6Iw6puxhSbskqj4oabg3yUcAFC6zYWyD9xiEWgr2XwvU4zm9OMpU0QR21fel5Ry2FA9UY34FZ2SIoT0EqbXf3iEUNajm67u3FZHbAGAJDL&appid=wx40ea41a3dce51a5c&secret=1801c50c70c39aa5c67fe944d354384e&js_code=&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.1.22
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Mon, 03 Jun 2019 05:43:54 GMT
+Content-Length: 78
+
+{"errcode":41008,"errmsg":"missing code, hints: [ req_id: vgbC7EyFe-P50SOa ]"}
+--------
+NULL  

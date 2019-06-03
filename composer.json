@@ -18,12 +18,12 @@
     "autoload": {
         "classmap": [
             "database/seeds",
-            "database/factories",
-            "helpers"
+            "database/factories"
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files":["helpers/function.php"]
     },
     "autoload-dev": {
         "classmap": [

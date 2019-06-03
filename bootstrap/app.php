@@ -91,10 +91,20 @@ $app->singleton(
 |
 */
 
+/**
+ * 注册一些配置
+ */
+
+$app->configure('wechat');
+
+/**
+ * 注册路由
+ */
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
     require __DIR__.'/../routes/web.php';
+    require __DIR__.'/../routes/wechat.php';
 });
 
 return $app;

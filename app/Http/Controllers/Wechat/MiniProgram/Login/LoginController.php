@@ -29,7 +29,7 @@ class LoginController extends BaseController
          * @var \Illuminate\Cache\CacheManager $cache
          */
         $cache = app('cache');
-        $cache->put('wechat:miniprogram:jscode:' . $result['openid'], $result['session_key']);
+        $cache->put('wechat:miniprogram:jscode:' . $result['openid'], $result['session_key'], 60 * 24 * 3);
         return apiJson($result);
     }
 

@@ -20,6 +20,8 @@ $router->group([
         ], function () use ($router) {
             //小程序登录
             $router->post('jscode2session', 'LoginController@jscode2session');
+            //消息解密
+            $router->post('decryptData', 'LoginController@decryptData');
         });
     });
 });

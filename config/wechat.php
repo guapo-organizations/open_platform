@@ -11,7 +11,7 @@ return [
 
         'log' => [
             'level' => 'debug',
-            'file' => __DIR__ . '../storage/logs/wechat.log',
+            'file' => dirname(__DIR__) . '/storage/logs/wechat.log',
         ]
     ]
 ];
